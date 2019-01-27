@@ -1,0 +1,137 @@
+baseURL = "http://www.mbfay.com"
+languageCode = "en"
+theme = "sada"
+
+[params]
+    title = "Matthew Banse-Fay's CV"
+    author = "Matthew Banse-Fay"
+    description = "Web & Game Developer"
+    copyright = "&copy;2019"
+    copyright_link = ""
+    font = "Lato"    
+
+    # Profile section
+    [params.profile]
+        name = "Matthew Banse-Fay"
+        photo = "profileshot.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/in/matthew-banse-fay/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/MBFay"
+        title = "GitHub"	
+
+        [[params.social.list]]
+        class = "fas"
+        icon = "fa-envelope"
+        url = "mailto:matthew.bansefay (a) gmail.com"
+        title = "Email"	
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Coursework Complete"
+        college = "Portland Community College"
+        dates = "2014 - 2016"
+
+        [[params.education.list]]
+        degree = "High School Diploma"
+        college = "Tualatin High School"
+        dates = "2006 - 2010"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "HTML/CSS"
+        level = "Intermediate"
+
+        [[params.language.list]]
+        language = "Javascript"
+        level = "Intermediate"
+
+        [[params.language.list]]
+        language = "Python"
+        level = "Basic"
+
+        [[params.language.list]]
+        language = "C++"
+        level = "Learning"
+
+        [[params.language.list]]
+        language = "C#"
+        level = "Learning"
+
+        [[params.language.list]]
+        language = "GML (GameMaker Language)"
+        level = "Expert"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+		
+		[[params.hobbies.list]]
+        interest = "Music"
+
+        [[params.hobbies.list]]
+        interest = "Baking"
+
+    [params.aboutme]
+        description = "Junior front-end web developer with some full-stack experience, and aspiring independent games developer."
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experience"
+
+        [[params.jobs.list]]
+        position = "IT Systems Analyst"
+        dates = "May 2015 - Jan. 2018"
+		link = "https://crrealestate.com"
+        company = "C&R Real Estate Services Co."
+        details = "Helped to maintain and support 100+ property workstations, providing end-user support to coworkers and clients for hardware and software related issues. Also assisted in the maintenance and creation of over 50 websites for multi-family housing properties."
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "HTML5 Game: Cuboo"
+        url = "/projects/cuboo/"
+        description = "A block-breaking mini game, designed for mobile and touch devices. Game was sold as non-exclusive license deal with branding."
+
+        [[params.projects.list]]
+        title = "HTML5 Game: Plane Quest"
+        url = "/projects/plane/"
+        description = "An exploratory project done in a single day, in an attempt to experiment with easing and the process of rapid development from conception to a completed state. Modelled directly after Flappy Bird by Dong Nguyen, using art from Kenney.nl"
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Front-end Web Development"
+        skillrating = 65 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Server/Back-end Development"
+        skillrating = 50
+		
+        [[params.skills.list]]
+        skill = "Native App Development"
+        skillrating = 40
